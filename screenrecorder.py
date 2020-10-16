@@ -12,4 +12,4 @@ while True: #Creates a screenshot to save as array lines 7-8, 9 BGR to RGB, 10-1
     cv2.imshow("instructions", instruct)
     if cv2.waitKey(unique_vars.time) & 255 == 27:
         break
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() #removes windows when loop breaks, i.e. when esc pressed
